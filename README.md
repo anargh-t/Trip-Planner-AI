@@ -13,15 +13,15 @@ An intelligent travel planning assistant that helps users create personalized tr
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.8 or higher (3.8.x, 3.9.x, 3.10.x, or 3.11.x recommended)
 - Google Gemini API key (Get it from [Google AI Studio](https://makersuite.google.com/app/apikey))
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/travel-itinerary-generator.git
-cd travel-itinerary-generator
+git clone https://github.com/anargh-t/Trip-Planner-AI.git
+cd Trip-Planner-AI
 ```
 
 2. Create a virtual environment and activate it:
@@ -53,12 +53,13 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-travel-itinerary-generator/
+Trip-Planner-AI/
 ├── src/
 │   ├── __init__.py
 │   ├── app.py              # Main Streamlit application
 │   ├── config.py           # Configuration and constants
 │   └── itinerary_generator.py  # Itinerary generation logic
+├── run_app.py             # Application entry point
 ├── .env                    # Environment variables (create this file)
 ├── requirements.txt        # Project dependencies
 └── README.md              # Project documentation
