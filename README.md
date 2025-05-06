@@ -2,6 +2,8 @@
 
 An intelligent travel planning assistant that helps users create personalized travel itineraries using Google's Gemini AI.
 
+Deployed version at: [Trip Planner AI](https://anargh-t-trip-planner-ai-srcapp-quxrem.streamlit.app/)
+
 ## Features
 
 - Interactive web interface built with Streamlit
