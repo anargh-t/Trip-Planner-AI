@@ -2,7 +2,7 @@ import streamlit as st
 from itinerary_generator import refine_inputs, generate_itinerary
 
 def main():
-    st.title("🌍 Travel Itinerary Generator ✈️")
+    st.title("🌍 Trip Planner AI ✈️")
     st.write("Let me help you plan the perfect trip! Answer a few questions to get started.")
 
     # Collect initial user inputs
