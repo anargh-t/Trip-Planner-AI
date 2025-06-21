@@ -5,11 +5,12 @@ import google.generativeai as genai
 # Load environment variables
 load_dotenv()
 
-# Get API key from environment variable or use the default
-API_KEY = os.getenv('GOOGLE_API_KEY', 'AIzaSyC4RQOc7G96569C-0FowyyzYCG1i-P5uso')
+# Get API key from environment variable only
+API_KEY = os.getenv('GOOGLE_API_KEY')
 
-# Configure Google Gemini API
-genai.configure(api_key=API_KEY)
+# Configure Google Gemini API if key is available
+if API_KEY:
+    genai.configure(api_key=API_KEY)
 
 # System prompt for the travel assistant
 SYSTEM_PROMPT = """
